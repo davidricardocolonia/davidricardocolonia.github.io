@@ -9,5 +9,5 @@ Este paquete está personalizado y listo para publicar.
 
 ## Ajustes recomendados
 - Reemplaza el `action` del formulario por tu endpoint real de Formspree.
-- Si conoces tu URL final, edita `sitemap.xml` y `robots.txt`.
+- Si conoces tu URL definitiva, edita `sitemap.xml` y `robots.txt`.
 - Registra el sitio en Google Search Console y envía `sitemap.xml`.
