@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+
+# Reemplaza con tu URL real si la conoces
+Sitemap: https://usuario.github.io/sitemap.xml

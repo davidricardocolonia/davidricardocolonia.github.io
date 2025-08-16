@@ -1,1 +1,69 @@
-<!doctype html><html lang='es'><head><meta charset='utf-8'><title>Mi sitio</title></head><body><h1>Hola Mundo</h1><p>Este es mi sitio en GitHub Pages.</p></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Ricardo Colonia — Ingeniero Catastral y Geodesta</title>
+  <meta name="description" content="Ingeniero catastral y geodesta, especialista en avalúos, con 15+ años de experiencia en proyectos de gestión predial, aplicando soluciones técnicas, jurídicas y geoespaciales.">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="David Ricardo Colonia — Ingeniero Catastral y Geodesta">
+  <meta property="og:description" content="Ingeniero catastral y geodesta, especialista en avalúos, con 15+ años de experiencia en proyectos de gestión predial, aplicando soluciones técnicas, jurídicas y geoespaciales.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://og-playground.vercel.app/api/basic?title=David%20Ricardo%20Colonia">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="David Ricardo Colonia — Ingeniero Catastral y Geodesta">
+  <meta name="twitter:description" content="Ingeniero catastral y geodesta, especialista en avalúos, con 15+ años de experiencia en proyectos de gestión predial, aplicando soluciones técnicas, jurídicas y geoespaciales.">
+  <!-- Favicon sencillo -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📐</text></svg>">
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a href="./" class="brand">David Ricardo Colonia</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre-mi">Perfil</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <section class="hero">
+      <h1>Ingeniería Catastral • Avalúos • GIS</h1>
+      <p>Ingeniero catastral y geodesta, especialista en avalúos, con 15+ años de experiencia en proyectos de gestión predial, aplicando soluciones técnicas, jurídicas y geoespaciales.</p>
+      <a class="btn" href="mailto:davidricardocolonia@gmail.com">Escríbeme</a>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul class="grid">
+        <li><h3>Avalúos de Inmuebles</h3><p>Asesoría técnica y entrega de soportes.</p></li><li><h3>Avalúos de Servidumbre</h3><p>Asesoría técnica y entrega de soportes.</p></li><li><h3>Diagnóstico Jurídico Catastral</h3><p>Asesoría técnica y entrega de soportes.</p></li><li><h3>Análisis Espacial</h3><p>Asesoría técnica y entrega de soportes.</p></li><li><h3>Sistemas de Información Geográfica</h3><p>Asesoría técnica y entrega de soportes.</p></li>
+      </ul>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Perfil</h2>
+      <p>Soy David Ricardo Colonia, ingeniero catastral y geodesta con enfoque en gestión predial y avalúos, integrando criterios técnicos, jurídicos y geoespaciales para la toma de decisiones.</p>
+      <p>Trabajo con QGIS/ArcGIS, bases de datos espaciales y metodologías alineadas con marco normativo colombiano.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:davidricardocolonia@gmail.com">davidricardocolonia@gmail.com</a></p>
+      <form method="POST" action="https://formspree.io/f/your-id">
+        <label>Nombre <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Mensaje <textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> David Ricardo Colonia. Sin anuncios invasivos.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
